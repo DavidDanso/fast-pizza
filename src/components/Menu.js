@@ -11,9 +11,8 @@ const Menu = () => {
       {pizzaData.length > 0 ? (
         <>
           <p>
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-            quae ab illo inventore veritatis et quasi architecto
+            Authentic Italian cuisine. 6 creative dishes to choose from. All
+            from our stone oven, all organic, all delicious.
           </p>
           <ul className="pizzas">
             {pizzaData.map((pizza) => {
